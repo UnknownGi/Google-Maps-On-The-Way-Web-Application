@@ -1,0 +1,185 @@
+/* Carousel and its Styles */
+	.carousel-fade .carousel-inner .item {
+	  opacity: 0;
+	  -webkit-transition-property: opacity;
+	  -moz-transition-property: opacity;
+	  -o-transition-property: opacity;
+	  transition-property: opacity;
+	}
+
+	.carousel-fade .carousel-inner .active {
+	  opacity: 1;
+	}
+
+	.carousel-fade .carousel-inner .active.left,
+	.carousel-fade .carousel-inner .active.right {
+	  left: 0;
+	  opacity: 0;
+	  z-index: 1;
+	}
+
+	.carousel-fade .carousel-inner .next.left,
+	.carousel-fade .carousel-inner .prev.right {
+	  opacity: 1;
+	}
+
+	.carousel-fade .carousel-control {
+	  z-index: 2;
+	}
+
+	.carousel-inner .item img {
+		height: 550px;
+		max-height: 550px;
+		min-height: 550px;
+	}
+
+	.carousel-inner > .item > img {
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.carousel-caption h3 {
+		font-size: 60px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+	
+	.carousel-caption p {
+		font-size: 22px;
+		padding-bottom: 30px;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+	#caption1 h3 {
+		color: rgb(0, 255, 32);
+		text-shadow: 1px 1px black;
+	}
+	
+	#caption2 h3 {
+		color: rgb(230, 0, 0);
+		text-shadow: 1px 1px black;
+	}
+	
+	#caption3 h3 {
+		text-shadow: 1px 1px black;
+	}
+	
+	#caption4 h3 {
+		color: rgb(127, 255, 127);
+		text-shadow: 1px 1px black;
+	}
+	
+/* Navbar */
+	.navbar .navbar-inverse .navbar-inner { 
+		border-width: 0px;
+		-webkit-box-shadow: 0px 0px;
+		box-shadow: 0px 0px;
+		background-color: rgba(0,0,0,0.0);
+		background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+		background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+		background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+	}
+	
+	.nav li a {
+		font-size: 18px;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+	.navbar-header a {
+		font-size: 20px;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+
+/* Development Team */
+	#devTeam {
+		height: 400px;
+		min-height: 400px;
+		max-height: 400px;
+		margin-top: 60px;
+	}
+	
+	#devTeam .row .col-sm-3, #devTeam .row h1 {
+		text-align: center;
+		
+	}
+	
+	#devTeam .row h1 {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-weight: bold;
+		color: rgba(228, 0, 64, 1);
+	}
+	
+	.teamDesc figcaption {
+		margin-top: 10px;
+		font-size: 22px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-weight: bold;
+		color: rgba(228, 0, 64, 1);
+	}
+	
+	.teamDesc description {
+		font-size: 14x;
+		font-style: italic;
+	}
+	
+/* Feature */
+	#feature {
+		height: 400px;
+		min-height: 400px;
+		max-height: 400px;
+		margin-top: 60px;
+		margin-bottom: 120px;
+	}
+	
+	#featureSet {
+		display: table;
+	}
+	
+	#feature .featureList {
+		height: 400px;
+		min-height: 400px;
+		max-height: 400px;
+	}
+	
+	#feature .featureList:not(:first-child) {
+		display: table-cell;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	#feature .featureList img {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	
+	#feature h1 {
+		font-weight: bold;
+		color: rgba(0, 64, 228, 1);
+	}
+
+	#feature h1, #feature .featureList .featureDesc {
+		font-family: Tahoma, Geneva, sans-serif;
+		text-align: center;
+	}
+	
+	#feature .featureList .featureDesc figcaption {
+		font-size: 22px;
+		font-weight: bold;
+		color: rgba(0, 64, 228, 1);
+	}
+	
+/* Join */
+	#join {
+		height: 400px;
+		min-height: 400px;
+		max-height: 400px;
+		margin-top: 60px;
+		margin-bottom: 120px;
+	}
+	
+	#join h1 {
+		font-family: Tahoma, Geneva, sans-serif;
+		text-align: center;
+		font-weight: bold;
+	}
